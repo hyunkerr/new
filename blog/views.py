@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from djang.utils import timezone
+from django.utils import timezone
 from .forms import PostForm
 from .models import Post
 def home(request):
